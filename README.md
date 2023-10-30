@@ -1,16 +1,17 @@
 
 | CS-665       | Software Design & Patterns |
 |--------------|----------------------------|
-| Name         | FIRST_NAME LAST_NAME       |
-| Date         | MM/DD/YYYY                 |
-| Course       | Fall / Spring / Summer     |
-| Assignment # |                            |
+| Name         | May Perriello              |
+| Date         | 10/31/2023                 |
+| Course       | Fall                       |
+| Assignment # | Assigment 3                |
 
 # Assignment Overview
-Please add a paragraph or two overviewing the objectives of the assignment.
+This application allows a company to send personalized automated emails to different customers based on their interaction level.  
+
 
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://github.com/mayperri/cs-665-assignment-3
 
 # Implementation Description 
 
@@ -19,11 +20,18 @@ For each assignment, please answer the following:
 
 - Explain the level of flexibility in your implementation, including how new object types can
 be easily added or removed in the future.
+  - My implementation is very flexible, classes can be easily added and to change a class will not influence changes in multiple locations. However, the outpu for each class could definitely be optimized. 
+
 - Discuss the simplicity and understandability of your implementation, ensuring that it is
 easy for others to read and maintain.
+  - The code is very readable, the classes are clear and very simple put. 
+
 - Describe how you have avoided duplicated code and why it is important.
+  - The factory method helps with not duplicating code, the use of the interface allows this. 
+
 - If applicable, mention any design patterns you have used and explain why they were
 chosen.
+  - I have used the factory method pattern in this application because there were multiple classes that needed to be initialized but with customize conditions and this method allows that. 
 
 
 # Maven Commands
